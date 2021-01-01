@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dice"
+        android:icon="@drawable/ic_dice5"
+        android:title="@string/title_dice" />
+
+    <item
+        android:id="@+id/navigation_coin"
+        android:icon="@drawable/ic_coin2"
+        android:title="@string/title_coin" />
+
+    <item
+        android:id="@+id/navigation_number"
+        android:icon="@drawable/ic_number"
+        android:title="@string/title_number" />
+
+</menu>

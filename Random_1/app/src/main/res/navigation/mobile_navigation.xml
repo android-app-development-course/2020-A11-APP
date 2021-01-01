@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_coin">
+
+    <fragment
+        android:id="@+id/navigation_dice"
+        android:name="com.example.random.ui.dice.DiceFragment"
+        android:label="@string/title_dice"
+        tools:layout="@layout/fragment_dice" />
+
+    <fragment
+        android:id="@+id/navigation_coin"
+        android:name="com.example.random.ui.coin.CoinFragment"
+        android:label="@string/title_coin"
+        tools:layout="@layout/fragment_coin" />
+
+    <fragment
+        android:id="@+id/navigation_number"
+        android:name="com.example.random.ui.number.NumberFragment"
+        android:label="@string/title_number"
+        tools:layout="@layout/fragment_number" />
+</navigation>

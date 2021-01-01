@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="1024dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+  <group
+    android:name="coin"
+    android:pivotX="512"
+    android:pivotY="512">
+    <path
+        android:pathData="m511.87,133a379,379 0,1 1,0 758a379,379 0,0 1,0 -758zM523.79,285.69a16.84,16.84 0,0 0,-23.83 0l-214.39,214.39a16.84,16.84 0,0 0,0 23.83l214.39,214.39a16.84,16.84 0,0 0,23.83 0l214.39,-214.39a16.84,16.84 0,0 0,0 -23.83l-214.39,-214.39z"
+        android:fillColor="@color/purple_500" />
+
+  </group>
+
+</vector>

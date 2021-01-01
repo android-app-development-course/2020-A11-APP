@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="1024dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+  <group
+      android:name="dice"
+      android:pivotX="512"
+      android:pivotY="512">
+    <path
+        android:pathData="m650.82,133.88l-277.39,0c-132.23,0 -239.54,107.32 -239.54,239.54l0,277.15c0,132.23 107.32,239.54 239.54,239.54l277.15,0c132.23,0 239.54,-107.32 239.54,-239.54l0,-277.15c0.24,-132.23 -107.08,-239.54 -239.3,-239.54zM467.56,467.56a71.86,71.86 0,0 1,-101.57 0a71.86,71.86 0,0 1,0 -101.57c28.03,-28.03 73.54,-28.03 101.57,0s28.27,73.54 0,101.57zM658.24,658.24c-28.03,28.03 -73.54,28.03 -101.57,0s-28.03,-73.54 0,-101.57s73.54,-28.03 101.57,0s28.03,73.54 0,101.57z"
+        android:fillColor="@color/purple_500" />
+  </group>
+</vector>
